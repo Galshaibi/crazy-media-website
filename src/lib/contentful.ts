@@ -70,7 +70,7 @@ export async function getBlogPosts(): Promise<BlogPost[]> {
   try {
     const response = await contentfulClient.getEntries({
       content_type: 'blogPost',
-      order: '-fields.publishDate',
+      order: ['-sys.createdAt']
     });
 
     return response.items.map(item => ({
