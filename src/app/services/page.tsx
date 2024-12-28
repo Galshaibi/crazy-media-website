@@ -2,40 +2,40 @@
 
 import { motion } from 'framer-motion'
 
-export default function Services() {
-  const services = [
-    {
-      icon: '🤖',
-      title: 'פיתוח צ\'אטבוטים',
-      description: 'צ\'אטבוטים חכמים המותאמים אישית לצרכי העסק שלכם, עם יכולות למידה והבנת שפה טבעית'
-    },
-    {
-      icon: '📱',
-      title: 'אוטומציה לעסקים',
-      description: 'פתרונות אוטומציה חכמים שחוסכים לכם זמן וכסף, מייעלים תהליכים ומשפרים את חווית הלקוח'
-    },
-    {
-      icon: '🎯',
-      title: 'פתרונות AI מתקדמים',
-      description: 'שילוב טכנולוגיות AI מתקדמות בעסק שלכם, כולל עיבוד תמונה, זיהוי קול וניתוח טקסט'
-    },
-    {
-      icon: '📊',
-      title: 'ניתוח נתונים',
-      description: 'ניתוח נתונים מתקדם והפקת תובנות עסקיות שיעזרו לכם לקבל החלטות מבוססות מידע'
-    },
-    {
-      icon: '🔍',
-      title: 'ייעוץ טכנולוגי',
-      description: 'ייעוץ מקצועי בתחום הAI והטכנולוגיה, כולל בחירת פתרונות, אסטרטגיה דיגיטלית ותכנון יישום'
-    },
-    {
-      icon: '🎓',
-      title: 'הדרכות והטמעה',
-      description: 'הדרכות מקצועיות והטמעת מערכות AI בארגון, כולל ליווי צמוד ותמיכה שוטפת'
-    }
-  ]
+const services = [
+  {
+    icon: '🤖',
+    title: 'פיתוח צ\'אטבוטים',
+    description: 'צ\'אטבוטים חכמים המותאמים אישית לצרכי העסק שלכם, עם יכולות למידה והבנת שפה טבעית'
+  },
+  {
+    icon: '📱',
+    title: 'אוטומציה לעסקים',
+    description: 'פתרונות אוטומציה חכמים שחוסכים לכם זמן וכסף, מייעלים תהליכים ומשפרים את חווית הלקוח'
+  },
+  {
+    icon: '🎯',
+    title: 'פתרונות AI מתקדמים',
+    description: 'שילוב טכנולוגיות AI מתקדמות בעסק שלכם, כולל עיבוד תמונה, זיהוי קול וניתוח טקסט'
+  },
+  {
+    icon: '📊',
+    title: 'ניתוח נתונים',
+    description: 'ניתוח נתונים מתקדם והפקת תובנות עסקיות שיעזרו לכם לקבל החלטות מבוססות מידע'
+  },
+  {
+    icon: '🔍',
+    title: 'ייעוץ טכנולוגי',
+    description: 'ייעוץ מקצועי בתחום הAI והטכנולוגיה, כולל בחירת פתרונות, אסטרטגיה דיגיטלית ותכנון יישום'
+  },
+  {
+    icon: '🎓',
+    title: 'הדרכות והטמעה',
+    description: 'הדרכות מקצועיות והטמעת מערכות AI בארגון, כולל ליווי צמוד ותמיכה שוטפת'
+  }
+]
 
+export default function Services() {
   return (
     <div className="min-h-screen py-20">
       <div className="container mx-auto px-6">
