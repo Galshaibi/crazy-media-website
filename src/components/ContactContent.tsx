@@ -189,8 +189,8 @@ export default function ContactContent() {
                     </div>
                     <div>
                       <div className="text-sm text-gray-400">אימייל</div>
-                      <a href="mailto:info@crazy-media.co.il" className="hover:text-blue-400 transition">
-                        info@crazy-media.co.il
+                      <a href="mailto:Gal@crazy-media.net" className="hover:text-blue-400 transition">
+                        Gal@crazy-media.net
                       </a>
                     </div>
                   </div>

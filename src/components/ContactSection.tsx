@@ -133,7 +133,7 @@ export default function ContactSection() {
           >
             {[
               { icon: '📞', text: '072-XXX-XXXX' },
-              { icon: '📧', text: 'info@crazymedia.co.il' },
+              { icon: '📧', text: 'Gal@crazy-media.net' },
               { icon: '📍', text: 'תל אביב, ישראל' }
             ].map((item, index) => (
               <div key={index} className="flex items-center gap-2 text-gray-300">
